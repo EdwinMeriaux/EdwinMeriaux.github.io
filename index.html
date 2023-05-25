@@ -393,7 +393,20 @@
               <img src="depth image.png" alt="depth image">
             </div>
             <p>
-              
+              The above two images show the camera used (intel D435i) and the output it generates. The depth image generated is similar to an RGB but the pixel itself is one value.
+              That value is the distance (0-4000 cms) from the center of the camera. This was then taken and turned into zones. Each of the zones will have a different sound generated.
+              To say if there is something in that area.
+            </p>
+            
+            <h4> Audio Processing</h4>
+            <div class="column">
+              <img src="Audio.png" alt="Audio">
+            </div>
+            <p>
+              The audio processing is based on directional audio. This is the same type of audio generated in video games to help a user understand where objects are. The difference
+              in time arrival to the left or right ear lets a person understand if the object is closer to the left side or right side. This is combined with the use of different sounds
+               for different regions. In combination the user is well able to understand the space. The image above shows the full pipeline for 
+              the audio generation. From the image being processed to the directional audio generation. 
             </p>
             
             
