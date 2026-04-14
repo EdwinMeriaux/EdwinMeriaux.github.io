@@ -308,45 +308,6 @@
       letter-spacing: 0.02em;
     }
 
-    /* ── PROJECT PAPERS ── */
-    .project-papers {
-      margin-top: 1rem;
-      padding: 1rem 1.2rem;
-      background: var(--color-surface);
-      border: 1px solid var(--color-border);
-      border-radius: 10px;
-    }
-
-    .project-papers-label {
-      font-size: 0.72rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: var(--color-text-secondary);
-      margin-bottom: 0.6rem;
-    }
-
-    .project-papers a {
-      display: block;
-      font-size: 0.88rem;
-      color: var(--color-text);
-      text-decoration: none;
-      padding: 0.45rem 0;
-      border-bottom: 1px solid var(--color-border);
-      transition: color 0.2s;
-      line-height: 1.45;
-    }
-
-    .project-papers a:last-child { border-bottom: none; }
-
-    .project-papers a:hover { color: var(--color-accent); }
-
-    .project-papers .paper-venue {
-      font-size: 0.78rem;
-      color: var(--color-text-secondary);
-      font-style: italic;
-    }
-
     /* ── IMAGE PLACEHOLDER ── */
     .img-placeholder {
       width: 100%;
@@ -650,6 +611,9 @@
     </div>
   </div>
   <div class="hero-photo animate animate-d3">
+    <!-- TODO: Replace with your professional headshot photo
+         Source: Upload a professional photo as "headshot.jpg" to the repo root
+         Recommended: Square or 4:5 portrait, well-lit, professional attire -->
     <img src="icra.png" alt="Edwin Meriaux">
   </div>
 </header>
@@ -697,7 +661,6 @@
   <div class="section-block">
     <div class="section-label">Research Projects</div>
 
-    <!-- ── PROJECT: POCGAGP ── -->
     <div class="project">
       <div class="project-header">
         <h3>Partially Observable Cooperative Guard Art Gallery Problem</h3>
@@ -707,8 +670,9 @@
       <p>
         Proposed the Partially Observable Cooperative Guard Art Gallery Problem (POCGAGP) to model the deployment of mobile ad-hoc communication networks in constrained environments. 
         Developed centralized (CADENCE) and decentralized (DADENCE) algorithms for network deployment.
-        The POCGAGP provides a mathematical formulation for network deployments in constrained environments as an expansion on the Art Gallery Problem and the Cooperative Guard Art Gallery Problem. 
-        Ongoing work looks at extending the POCGAGP into continuous spaces with more relaxed spatial geometries and developing improvements to the underlying solutions
+        The POCGAGP, provides a mathematical formulation for network deployments in constrained environments as an expansion on the Art Gallery Problem and the Cooperative Guard Art Gallery Problem. 
+
+        Ongoing work looks at extending the POCGAGP into continuous spaces with more relaxed spatial geometries and developing improvmeents to the underlying solutions
         with a goal to utilize both classical optimization and learning-based methods to solve the problem.
       </p>
       <div class="project-tags">
@@ -718,18 +682,8 @@
         <span class="tag">MARL</span>
       </div>
       <img src="tro.png" alt="POCGAGP diagram" style="width:100%; border-radius:8px; margin-top:12px;">
-
-      <div class="project-papers">
-        <div class="project-papers-label">Related Papers</div>
-        <a href="https://arxiv.org/abs/2512.09495" target="_blank">
-          On Mobile Ad Hoc Networks for Coverage of Partially Observable Worlds
-          <span class="paper-venue">arXiv preprint, 2025</span>
-        </a>
-        <!-- EDWIN LINK: add any additional POCGAGP papers below -->
-      </div>
     </div>
 
-    <!-- ── PROJECT: GNSS ── -->
     <div class="project">
       <div class="project-header">
         <h3>Aerial GNSS Estimation with Multi-Drone Systems</h3>
@@ -751,18 +705,8 @@
         <img src="gnss/left.png" alt="GNSS field deployment left" style="width:50%; border-radius:8px;">
         <img src="gnss/right.png" alt="GNSS field deployment right" style="width:50%; border-radius:8px;">
       </div>
-
-      <div class="project-papers">
-        <div class="project-papers-label">Related Papers</div>
-        <a href="https://arxiv.org/abs/2511.18694" target="_blank">
-          Stable Multi-Drone GNSS Tracking System for Marine Robots
-          <span class="paper-venue">arXiv preprint, 2025</span>
-        </a>
-        <!-- EDWIN LINK: add any additional GNSS papers below -->
-      </div>
     </div>
 
-    <!-- ── PROJECT: Robust Shortest Path ── -->
     <div class="project">
       <div class="project-header">
         <h3>Robust Shortest Path with Adversarial Uncertainty</h3>
@@ -781,18 +725,8 @@
         <span class="tag">POMDP</span>
         <span class="tag">Graph Theory</span>
       </div>
-
-      <div class="project-papers">
-        <div class="project-papers-label">Related Papers</div>
-        <a href="https://ieeexplore.ieee.org/document/11187259/" target="_blank">
-          Robust Shortest Path with Incremental Information Revelation
-          <span class="paper-venue">European Control Conference (ECC), IEEE, 2025</span>
-        </a>
-        <!-- EDWIN LINK: add any additional Robust Shortest Path papers below (e.g. thesis link) -->
-      </div>
     </div>
 
-    <!-- ── PROJECT: Couzin Swarming ── -->
     <div class="project">
       <div class="project-header">
         <h3>Couzin Swarming Robustness to Packet Loss</h3>
@@ -810,22 +744,10 @@
         <span class="tag">Communication</span>
         <span class="tag">Packet Loss</span>
       </div>
-
-      <div class="project-papers">
-        <div class="project-papers-label">Related Papers</div>
-        <a href="https://ieeexplore.ieee.org/document/10666239/" target="_blank">
-          Robustness of Couzin Swarming to Packet Loss and Methods to Improve Robotic Swarm Communication
-          <span class="paper-venue">IEEE COMCAS, 2024</span>
-        </a>
-        <a href="EDWIN LINK" target="_blank">
-          Simulation of the Effect of Correlated Packet Loss for sUAS Platforms in NLOS Indoor Environments
-          <span class="paper-venue">Drones 7(7), 2023</span>
-        </a>
-        <!-- EDWIN LINK: add any additional swarming/packet loss papers below -->
-      </div>
     </div>
 
-    <!-- ── PROJECT: DECISIVE ── -->
+
+
     <div class="project">
       <div class="project-header">
         <h3>DECISIVE — Subterranean sUAS Evaluation</h3>
@@ -845,30 +767,8 @@
         <span class="tag">US Army</span>
       </div>
       <img src="DECISIVE/right.png" alt="Real-world hallway test environment for trust testing" style="width:100%; border-radius:8px; margin-top:12px;">
-
-      <div class="project-papers">
-        <div class="project-papers-label">Related Papers</div>
-        <a href="EDWIN LINK" target="_blank">
-          How Does Trust in Simulations of Drone Failures Compare with Reality?
-          <span class="paper-venue">IEEE ICARA, 2024</span>
-        </a>
-        <a href="https://ieeexplore.ieee.org/abstract/document/10025455" target="_blank">
-          Evaluation of Navigation and Trajectory-following Capabilities of Small Unmanned Aerial Systems
-          <span class="paper-venue">IEEE HST, 2022</span>
-        </a>
-        <a href="https://arxiv.org/abs/2211.01801" target="_blank">
-          DECISIVE Test Methods Handbook v1.1
-          <span class="paper-venue">US Army / arXiv, 2022</span>
-        </a>
-        <a href="https://arxiv.org/abs/2301.07853" target="_blank">
-          DECISIVE Benchmarking Data Report: sUAS Performance Results from Phase I
-          <span class="paper-venue">US Army / arXiv, 2023</span>
-        </a>
-        <!-- EDWIN LINK: add any additional DECISIVE papers below -->
-      </div>
     </div>
 
-    <!-- ── PROJECT: NAVLENZ ── -->
     <div class="project">
       <div class="project-header">
         <h3>NAVLENZ — Assistive Navigation for the Visually Impaired</h3>
@@ -886,16 +786,6 @@
         <span class="tag">Spatial Audio</span>
         <span class="tag">Rust</span>
         <span class="tag">Accessibility</span>
-      </div>
-
-      <div class="project-papers">
-        <div class="project-papers-label">Related Papers</div>
-        <a href="EDWIN LINK" target="_blank">
-          <!-- EDWIN LINK: add NAVLENZ paper title and venue here -->
-          NAVLENZ paper title
-          <span class="paper-venue">Venue, Year</span>
-        </a>
-        <!-- EDWIN LINK: add any additional NAVLENZ papers below, or remove this block if none -->
       </div>
     </div>
 
@@ -924,7 +814,7 @@
       <li class="pub-item">
         <span class="pub-number">02</span>
         <div class="pub-content">
-          <h4><a href="https://ieeexplore.ieee.org/document/11187259/" target="_blank">Robust Shortest Path with Incremental Information Revelation</a></h4>
+          <h4>Robust Shortest Path with Incremental Information Revelation</h4>
           <div class="pub-authors"><strong>E. Meriaux</strong> and A. Mahajan</div>
           <div class="pub-venue">European Control Conference (ECC), IEEE, 2025</div>
         </div>
@@ -942,7 +832,7 @@
       <li class="pub-item">
         <span class="pub-number">04</span>
         <div class="pub-content">
-          <h4><a href="https://ieeexplore.ieee.org/document/10666239/" target="_blank">Robustness of Couzin Swarming to Packet Loss and Methods to Improve Robotic Swarm Communication</a></h4>
+          <h4>Robustness of Couzin Swarming to Packet Loss and Methods to Improve Robotic Swarm Communication</h4>
           <div class="pub-authors"><strong>E. Meriaux</strong> and J. Weitzen</div>
           <div class="pub-venue">IEEE COMCAS, 2024</div>
         </div>
@@ -951,8 +841,7 @@
       <li class="pub-item">
         <span class="pub-number">05</span>
         <div class="pub-content">
-          <!-- EDWIN LINK: replace href below with your ICARA 2024 paper link -->
-          <h4><a href="EDWIN LINK" target="_blank">How Does Trust in Simulations of Drone Failures Compare with Reality?</a></h4>
+          <h4>How Does Trust in Simulations of Drone Failures Compare with Reality?</h4>
           <div class="pub-authors"><strong>E. Meriaux</strong>, et al.</div>
           <div class="pub-venue">IEEE ICARA, 2024</div>
         </div>
@@ -961,8 +850,7 @@
       <li class="pub-item">
         <span class="pub-number">06</span>
         <div class="pub-content">
-          <!-- EDWIN LINK: replace href below with your Drones journal paper link -->
-          <h4><a href="EDWIN LINK" target="_blank">Simulation of the Effect of Correlated Packet Loss for sUAS Platforms in NLOS Indoor Environments</a></h4>
+          <h4>Simulation of the Effect of Correlated Packet Loss for sUAS Platforms in NLOS Indoor Environments</h4>
           <div class="pub-authors"><strong>E. Meriaux</strong>, J. Weitzen, and A. Norton</div>
           <div class="pub-venue">Drones 7(7), 2023</div>
         </div>
