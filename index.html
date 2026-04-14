@@ -62,7 +62,7 @@
     nav.scrolled { box-shadow: 0 1px 12px rgba(0,0,0,0.06); }
 
     nav .nav-inner {
-      max-width: var(--max-width);
+      max-width: 1100px;
       margin: 0 auto;
       padding: 0.85rem 2rem;
       display: flex;
@@ -80,18 +80,19 @@
 
     nav .nav-links {
       display: flex;
-      gap: 1.8rem;
+      gap: 1.2rem;
       list-style: none;
     }
 
     nav .nav-links a {
-      font-size: 0.82rem;
+      font-size: 0.75rem;
       font-weight: 500;
       color: var(--color-text-secondary);
       text-decoration: none;
       text-transform: uppercase;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.06em;
       transition: color 0.2s;
+      white-space: nowrap;
     }
 
     nav .nav-links a:hover { color: var(--color-accent); }
